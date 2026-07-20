@@ -1,0 +1,42 @@
+<svg width="820" height="190" viewBox="0 0 820 190" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="daniel · drsh4dow — terminal banner">
+  <style>
+    .mono { font-family: "JetBrains Mono", "Fira Code", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+  </style>
+
+  <!-- terminal window -->
+  <rect x="1" y="1" width="818" height="188" rx="10" fill="#282828" stroke="#3c3836" stroke-width="2"/>
+
+  <!-- title bar -->
+  <rect x="1" y="1" width="818" height="34" rx="10" fill="#1d2021"/>
+  <rect x="1" y="20" width="818" height="15" fill="#1d2021"/>
+  <circle cx="24" cy="18" r="6" fill="#fb4934"/>
+  <circle cx="44" cy="18" r="6" fill="#fabd2f"/>
+  <circle cx="64" cy="18" r="6" fill="#b8bb26"/>
+  <text x="410" y="23" text-anchor="middle" class="mono" font-size="12" fill="#928374">nvim · ~/daniel</text>
+
+  <!-- prompt line -->
+  <text x="28" y="72" class="mono" font-size="15">
+    <tspan fill="#8ec07c">~</tspan>
+    <tspan fill="#83a598" dx="8">❯</tspan>
+    <tspan fill="#ebdbb2" dx="8">whoami</tspan>
+  </text>
+
+  <!-- output: name -->
+  <text x="28" y="118" class="mono" font-size="34" font-weight="700">
+    <tspan fill="#fabd2f">daniel</tspan>
+    <tspan fill="#928374" dx="10">·</tspan>
+    <tspan fill="#fe8019" dx="10">drsh4dow</tspan>
+  </text>
+
+  <!-- tagline -->
+  <text x="28" y="148" class="mono" font-size="14" fill="#a89984">rust · typescript · linux · neovim</text>
+
+  <!-- next prompt with blinking cursor -->
+  <text x="28" y="176" class="mono" font-size="15">
+    <tspan fill="#8ec07c">~</tspan>
+    <tspan fill="#83a598" dx="8">❯</tspan>
+  </text>
+  <rect x="76" y="164" width="9" height="16" fill="#ebdbb2">
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+</svg>
