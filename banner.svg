@@ -12,7 +12,7 @@
   <circle cx="24" cy="18" r="6" fill="#fb4934"/>
   <circle cx="44" cy="18" r="6" fill="#fabd2f"/>
   <circle cx="64" cy="18" r="6" fill="#b8bb26"/>
-  <text x="410" y="23" text-anchor="middle" class="mono" font-size="12" fill="#928374">nvim · ~/daniel</text>
+  <text x="410" y="23" text-anchor="middle" class="mono" font-size="12" fill="#928374">nvim · ~/drsh4dow</text>
 
   <!-- prompt line -->
   <text x="28" y="72" class="mono" font-size="15">
@@ -23,9 +23,9 @@
 
   <!-- output: name -->
   <text x="28" y="118" class="mono" font-size="34" font-weight="700">
-    <tspan fill="#fabd2f">daniel</tspan>
+    <tspan fill="#fabd2f">Dan</tspan>
     <tspan fill="#928374" dx="10">·</tspan>
-    <tspan fill="#fe8019" dx="10">drsh4dow</tspan>
+    <tspan fill="#fe8019" dx="10">DrSh4dow</tspan>
   </text>
 
   <!-- tagline -->
